@@ -18,6 +18,7 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
+    color: #1E375B;
 }
 .isi-konten h2{
     margin-left: 15px;
@@ -29,4 +30,5 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
+    color: #1E375B;
 }
