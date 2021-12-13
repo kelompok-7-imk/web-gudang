@@ -1,2 +1,2 @@
 # web-gudang
-Implementasi design pada Figma
+Implementasi design pada Figma ke Html
