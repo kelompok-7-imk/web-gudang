@@ -1,0 +1,29 @@
+body {
+    height: 1024px;
+    max-width: 100%;
+    background-image: url(img/Desktop\ -\ 1\ \(2\).png);
+}
+.container {
+    margin-top: 300px;
+}
+.btn {
+    background-color: #F54748;
+}
+.btn:hover {
+    background-color: #F11B1C;
+}
+.registration a:link{
+    color: #7F265B;
+    background-color: transparent;
+    text-decoration: none;
+}
+.registration a:visited{
+    color: #7F265B;
+    background-color: transparent;
+    text-decoration: none;
+}
+.registration a:hover{
+    color: #550E38;
+    background-color: transparent;
+    text-decoration: none;
+}
