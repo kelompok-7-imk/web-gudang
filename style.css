@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'Poppins';
+  src: 'fonts/Poppins-Bold.ttf';
+}
+
+:root {
+  --main-bg-color: #fb9300;
+  --main-text-color: #1e375b;
+  --second-text-color: #000000;
+  --second-bg-color: #f5e6ca;
+  --main-font: 'Poppins';
+  --btn-main: #f54748;
+  --btn-main-hover: #f11b1c;
+  --btn-second-hover: #f11b1c;
+}
+
+body {
+  background-color: var(--second-bg-color);
+}
+
+.page-content-wrapper {
+  min-width: 100vw;
+}
+
+.main-title,
+.main-content {
+  font-family: var(--main-font);
+}
+
+.navbar {
+  font-family: var(--main-font);
+  background-color: var(--main-bg-color);
+  font-size: 1.2em;
+}
+
+.nav-link:hover::after {
+  content: '';
+  display: block;
+  border-bottom: 3px solid #ffffff;
+  border-radius: 2px 2px;
+  width: 55%;
+  margin: auto;
+  margin-bottom: -10px;
+}
+
+.table-content {
+  background-color: var(--second-bg-color);
+}
+
+button.btn-danger {
+  background-color: var(--btn-main);
+}
+
+button.btn-outline-danger {
+  color: var(--second-text-color);
+}
+
+button.btn-danger:hover {
+  background-color: var(--btn-main-hover);
+}
+
+button.btn-outline-danger:hover {
+  background-color: var(--btn-main-hover);
+}
+button.btn-outline-danger a {
+  color: var(--second-text-color);
+}
+
+button a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+button a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
