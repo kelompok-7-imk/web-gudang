@@ -12,6 +12,9 @@ body {
 .btn:hover {
     background-color: #F11B1C;
 }
+.registration p {
+    font-size: 00.8rem;
+}
 .registration a:link{
     color: #7F265B;
     background-color: transparent;
@@ -25,5 +28,8 @@ body {
 .registration a:hover{
     color: #550E38;
     background-color: transparent;
+    text-decoration: none;
+}
+.tombol a{
     text-decoration: none;
 }
